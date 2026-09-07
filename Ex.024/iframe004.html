@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum non ipsum perferendis asperiores. Corrupti id perspiciatis ut cupiditate, modi impedit maiores necessitatibus inventore harum dolorum pariatur, quod sint! Ipsum, error?</p>
+
+    <!--Quando coloco a configuração sandbox, eu crio uma proteção maior contra ataques-->
+    <iframe src="pag.004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+        Seu navegador não é compativel com isso...
+    </iframe>
+    <!--Quando coloco no no-referrer, o que está dentro do iframe, não vai coletar nenhuma informação do usuário-->
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis omnis suscipit iste nulla possimus commodi eveniet nemo aut mollitia, tenetur iure totam! Eveniet deserunt animi, facere deleniti incidunt consequatur dolores!</p>
+</body>
+</html>
